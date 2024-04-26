@@ -135,7 +135,6 @@ img{
     border: none;
     border: 1px solid #c5c2c2;
     transition: all;
-    transition-duration: 1s;
 
 }
  button:hover{
@@ -188,8 +187,8 @@ img{
 }
 
 .main-about img{
-    height: 450px;
-    width: 320px;
+    height: 430px;
+    width: 290px;
 }
 .main-about .my-info span{
     font-weight: bold;
@@ -200,6 +199,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     line-height: 7px;
+    color: #fff;
 }
 
 /*services*/
@@ -420,7 +420,12 @@ img{
     }
     
     .showcase-header img{
+        
+    }
+    .showcase-header img{
         padding: 40px 0;
+        width: 260px;
+        justify-self: center;
     }
 
     .main-about{
@@ -432,14 +437,22 @@ img{
         margin-top: 20px;
        display: flex;
        flex-direction: column;
-       
-     
    }
+
+   .main-about img{
+    width: 260px;
+    justify-self: center;
+}
 
    .my-services .container > div{
     flex-direction: column;    
     display: flex;
 }
+.main-about .my-info{
+   line-height: 7px;
+   color: #fff;
+}
+
 
 .wrapper{
     display: flex;
@@ -478,21 +491,16 @@ img{
 }
 @media (max-width:500px){
 
-    .navbar .container {
-        flex-direction: column;
-        text-align: center;
-     }
-     .navbar ul{
-         padding: 10px 0;
-         display: flex;
-     }
-     .navbar {
-        padding: 20px 0;
-        height: auto;
+    .navbar {
+        height: 110px;
     }
 
-    .navbar ul{
+    .navbar .container{
         flex-direction: column;
+    }
+    .navbar ul{
+        padding: 10px;
+        background-color: rgba(0,0,0, 0.1);
     }
     
 }
