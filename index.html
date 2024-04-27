@@ -130,11 +130,9 @@
     <div class="container">
         <h3>Get in touch</h3>
         <p>Feel free to drop me line. Contact Me</p>
-        <form name="contact" method="post" netlify-honeypot="bot-field"data-netlify="true">
-            <input type="hidden" name="form-name" value="contact">
-            <p class="hidden">
-                <label> Don't fill this out if you're human: <input name="bot-field"></label>
-            </p>
+        <form id="contactForm" action="https://formspree.io/f/xjvnjndo"
+        method="POST">
+            
             <input type="text" id="name" name="name" placeholder="Your Name" required>
 
             <input type="email" id="email" name="email" placeholder="Your Email Address" required>
@@ -185,5 +183,6 @@
         <p>Copyright &copy; 2024</p>
     </div>
 </section>
+
 </body>
 </html>
