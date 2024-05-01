@@ -247,6 +247,29 @@ img{
     text-align: center;
     flex-wrap: wrap;
 }
+.portfolio{
+    background-color: #c7c2c235;
+}
+.portfolio h3{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+.ptf{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+
+.ptf img{
+    width: 350px;
+    
+}
+.ptf img:hover{
+    filter: blur(2px);
+}
 
 /*contact*/
 .contact{
@@ -454,6 +477,15 @@ img{
    color: #fff;
 }
 
+
+.ptf{
+    display: block;
+}
+.ptf img{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
 
 .wrapper{
     display: flex;
