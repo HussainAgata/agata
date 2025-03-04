@@ -107,6 +107,11 @@ img{
 
     width: 300px;
     justify-self: flex-end;
+    border-radius: 10px;
+}
+
+.showcase-header img:hover{
+    rotate: 9%;
 }
 
 .showcase-header h5 {
@@ -440,10 +445,6 @@ img{
 
     .showcase-header h3{
         line-height: 4rem;
-    }
-    
-    .showcase-header img{
-        
     }
     .showcase-header img{
         padding: 40px 0;
